@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ViewContact">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Контакт"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Имя"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/surname_view"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:hint="Фамилия"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/patronymic_view"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/email_view"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/phone_view"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:id="@+id/update_contact_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Обновить"/>
+
+    <Button
+        android:id="@+id/delete_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Удалить"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Назад"/>
+</LinearLayout>
